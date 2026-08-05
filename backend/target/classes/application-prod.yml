@@ -1,0 +1,18 @@
+# Production profile — activated on Render with SPRING_PROFILES_ACTIVE=prod
+# Uses PostgreSQL via Neon.tech DATABASE_URL
+
+spring:
+  datasource:
+    url: ${DATABASE_URL}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: false
+  h2:
+    console:
+      enabled: false

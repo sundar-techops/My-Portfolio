@@ -1,0 +1,9 @@
+2026-07-27 13:53:53.199561+05:30 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "IMAGE_URL CHARACTER VARYING(255)": "'data:image/webp;base64,UklGRoYWAABXRUJQVlA4IHoWAADQWQCdASoQAbQAPp1InkqlpCKhpvS7... (7723)"; SQL statement:
+update projects set description=?,image_url=?,link=?,title=? where id=? [22001-224]
+2026-07-27 13:54:31.414741+05:30 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "IMAGE_URL CHARACTER VARYING(255)": "'data:image/webp;base64,UklGRoYWAABXRUJQVlA4IHoWAADQWQCdASoQAbQAPp1InkqlpCKhpvS7... (7723)"; SQL statement:
+update projects set description=?,image_url=?,link=?,title=? where id=? [22001-224]
+2026-07-27 13:54:40.878247+05:30 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "IMAGE_URL CHARACTER VARYING(255)": "'data:image/webp;base64,UklGRoYWAABXRUJQVlA4IHoWAADQWQCdASoQAbQAPp1InkqlpCKhpvS7... (7723)"; SQL statement:
+update projects set description=?,image_url=?,link=?,title=? where id=? [22001-224]
