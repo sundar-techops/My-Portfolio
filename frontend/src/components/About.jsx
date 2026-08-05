@@ -38,12 +38,7 @@ export default function About({ profile, onUpdate }) {
             ) : (
               <p className="text-slate-300 leading-relaxed text-lg">
                 {profile?.about ||
-                  'Aspiring DevOps Engineer with overall 4+ years and backed by 2+ years of strong Technical Support experience, skilled in managing Networking products, monitoring network topologies for zero downtime, and providing robust Infrastructure support.Currently transitioning into the DevOps domain with hands-on knowledge in AWS, Azure, Jenkins, Docker, Kubernetes, Ansible, Terraform, GitHub, Grafana, and Prometheus.
-Passionate about automation, cloud technologies, and building reliable CI/CD pipelines to improve efficiency and performance.
-
-Always eager to learn, contribute, and grow in a challenging DevOps environment.
-
-'}
+                  'Tell more about you'}
               </p>
             )}
           </div>
