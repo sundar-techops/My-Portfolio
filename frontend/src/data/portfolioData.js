@@ -15,7 +15,7 @@ export const profile = {
    about:
     'Aspiring DevOps Engineer transitioning from 2+ years of Technical Support experience into DevOps. My background in IT infrastructure, networking, system troubleshooting, and enterprise support has given me a strong foundation in reliability and operations. \n\n' +
     'I am now focused on DevOps and have built hands-on experience with AWS, Azure, Linux, Git, Jenkins, Docker, Kubernetes, Terraform, Ansible, Prometheus, and Grafana, with a focus on CI/CD automation, Infrastructure as Code, containerization, cloud infrastructure, and monitoring. \n\n' + 
-    'I applied  my skills through hands-on projects, including an end-to-end CI/CD implementation on AWS EKS covering automated build, testing, security scanning, containerization, deployment, monitoring, and alerting.\n\n' ,
+    'I applied  my skills through hands-on projects, including an end-to-end CI/CD implementation on AWS EKS covering automated build, testing, security scanning, containerization, deployment, monitoring, and alerting. \n\n' ,
   
   resumeUrl: 'https://drive.google.com/file/d/1JIhVHYAbvlrVFURtUIRrWfqKgB1N6Jxo/view?usp=drive_link',
   githubUrl: 'https://github.com/sundar-techops',
@@ -73,7 +73,7 @@ export const projects = [
     imageUrl: 'https://tse3.mm.bing.net/th/id/OIP.JMspq1z3Vm2m00ioNzUtEgHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3',
   },
    {
-    id: 3,
+    id: 4,
     title: 'GitOps Deployment — Argo CD | Kubernetes | GitHub  (GitOps & Auto-Healing)',
     description:
       '•	Deployed Argo CD on a Kubernetes cluster and connected it to a GitHub repository (sundar-techops/devops-argocd-gitops) to implement a fully automated GitOps delivery pipeline — directly matching the Argo CD and auto-healing infrastructure requirements of this role.',
