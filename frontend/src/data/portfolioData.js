@@ -10,7 +10,7 @@ export const profile = {
   name: 'Sundar S', // TODO: put your full name as you want it on resume/LinkedIn
   title: 'Motivated & Aspiring DevOps/Cloud Engineer',
   intro:
-    'Motivated and detail-oriented aspiring DevOps Engineer with hands-on project experience in AWS cloud infrastructure, Terraform (IaC), CI/CD pipelines, Docker containerization, and Kubernetes orchestration.'
+    'Motivated and detail-oriented aspiring DevOps Engineer with hands-on project experience in AWS cloud infrastructure, Terraform (IaC), CI/CD pipelines, Docker containerization, and Kubernetes orchestration.' ,
   
    about:
     'Aspiring DevOps Engineer transitioning from 2+ years of Technical Support experience into DevOps. My background in IT infrastructure, networking, system troubleshooting, and enterprise support has given me a strong foundation in reliability and operations. \n\n' +
