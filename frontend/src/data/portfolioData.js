@@ -54,7 +54,7 @@ export const projects = [
       '•	Provisioned AWS EKS cluster using eksctl with 2 worker nodes, HPA autoscaling (2–5 pods based on CPU), and AWS ALB Ingress exposing the application publicly on the internet \n\n' +
       '•	Set up Prometheus + Grafana monitoring stack on Kubernetes with custom alert rules for pod crash loops, high CPU, and zero-replica scenarios — alerts routed to Slack via Alertmanager. \n\n',
     link: 'https://github.com/sundar-techops/myapp-End-to-End-CI-CD-Pipeline-using-K8s.git',
-    imageUrl: '',
+    imageUrl: 'https://www.ibm.com/think/topics/ci-cd',
   },
   {
     id: 2,
