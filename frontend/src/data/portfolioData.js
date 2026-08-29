@@ -10,14 +10,14 @@ export const profile = {
   name: 'Sundar S', // TODO: put your full name as you want it on resume/LinkedIn
   title: 'Motivated & Aspiring DevOps/Cloud Engineer',
   intro:
-    ' Overall 4+ years of experience backed by  2+ years of Technical Support professional experience transitioning into DevOps and Cloud Engineering.\n\n' +
-    ' Skilled in AWS, Terraform, Jenkins, Docker, and Kubernetes fundamentals, with hands-on project experience in CI/CD automation and cloud infrastructure.\n\n',
-  about:
-    'An aspiring DevOps Engineer with an overall 4+ years of professional experience, including 2+ years in Technical Support, where I gained strong expertise in IT infrastructure, networking, system troubleshooting, and enterprise support. My experience includes managing networking devices, monitoring network infrastructure for high availability, resolving complex technical issues, and supporting enterprise environments with a focus on reliability and operational excellence. \n\n' +
-    'Working in technical support gave me a deep understanding of how critical stable infrastructure is to business operations. Over time, I became increasingly interested in not only resolving production issues but also building, automating, and optimizing the systems behind them. This curiosity inspired my transition into the DevOps domain. \n\n' + 
-    'To build a strong foundation, I completed structured DevOps training and dedicated significant time to hands-on practice. I have developed practical skills in AWS, Azure, Linux, Git, GitHub, Jenkins, Docker, Kubernetes, Terraform, Ansible, Prometheus, and Grafana, with a strong focus on Infrastructure as Code, CI/CD automation, containerization, and cloud-native technologies.',
+    'Motivated and detail-oriented aspiring DevOps Engineer with hands-on project experience in AWS cloud infrastructure, Terraform (IaC), CI/CD pipelines, Docker containerization, and Kubernetes orchestration.' +
   
-  resumeUrl: '',
+   about:
+    'Aspiring DevOps Engineer transitioning from 2+ years of Technical Support experience into DevOps. My background in IT infrastructure, networking, system troubleshooting, and enterprise support has given me a strong foundation in reliability and operations. \n\n' +
+    'I am now focused on DevOps and have built hands-on experience with AWS, Azure, Linux, Git, Jenkins, Docker, Kubernetes, Terraform, Ansible, Prometheus, and Grafana, with a focus on CI/CD automation, Infrastructure as Code, containerization, cloud infrastructure, and monitoring. \n\n' + 
+    'I applied  my skills through hands-on projects, including an end-to-end CI/CD implementation on AWS EKS covering automated build, testing, security scanning, containerization, deployment, monitoring, and alerting.',
+  
+  resumeUrl: 'https://drive.google.com/file/d/1JIhVHYAbvlrVFURtUIRrWfqKgB1N6Jxo/view?usp=drive_link',
   githubUrl: 'https://github.com/sundar-techops',
   linkedinUrl: 'https://www.linkedin.com/in/sundar-techops',
   email: 'sundar.techops@gmail.com',
@@ -25,16 +25,16 @@ export const profile = {
 };
 
 export const skills = [
-  { id: 1, name: 'AWS (EC2, S3, RDS, IAM)', category: 'Cloud', proficiency: 75 },
+  { id: 1, name: 'AWS (EC2, S3, EBS, VPC, IAM, RDS, NAT Gateway, Security Groups, EKS)', category: 'Cloud', proficiency: 75 },
   { id: 2, name: 'Terraform', category: 'Cloud', proficiency: 70 },
   { id: 3, name: 'Azure Fundamentals', category: 'Cloud', proficiency: 50 },
 
   { id: 4, name: 'Jenkins', category: 'CI/CD', proficiency: 75 },
-  { id: 5, name: 'GitHub Actions', category: 'CI/CD', proficiency: 55 },
+  { id: 5, name: 'GitHub Actions', category: 'CI/CD', proficiency: 70 },
   { id: 6, name: 'Docker', category: 'CI/CD', proficiency: 75 },
 
-  { id: 7, name: 'Kubernetes', category: 'Containers & Orchestration', proficiency: 75 },
-  { id: 8, name: 'Amazon EKS', category: 'Containers & Orchestration', proficiency: 60 },
+  { id: 7, name: 'Kubernetes', category: 'Containers & Orchestration', proficiency: 70 },
+  { id: 8, name: 'Amazon EKS', category: 'Containers & Orchestration', proficiency: 70 },
 
   { id: 9, name: 'Bash Scripting', category: 'Scripting', proficiency: 70 },
   { id: 10, name: 'Python', category: 'Scripting', proficiency: 60 },
@@ -46,11 +46,15 @@ export const skills = [
 export const projects = [
   {
     id: 1,
-    title: 'CI/CD Pipeline (Jenkins, Maven, Docker, EKS)',
+    title: 'MyShop — End-to-End production style CI/CD Pipeline project on AWS EKS',
     description:
-      'End-to-end CI/CD pipeline built with Jenkins, SonarQube, Maven, and Docker, deploying to Amazon EKS. Includes an AI pipeline assistant (Anthropic API) for build diagnostics and automated release notes.',
-    link: 'https://github.com/sundar-techops/sundar-techops-DevOps-CI-CD-Project-using-AWS-EC2-instance.git',
-    imageUrl: 'https://slidebazaar.com/wp-content/uploads/2025/06/CI-CD-Pipeline-PowerPoint-Template-Dark.jpg',
+      '•	Designed and implemented a 10-stage CI/CD pipeline using Jenkins that automatically builds, tests, scans, and deploys a Spring Boot e-commerce application to AWS EKS on every GitHub push — zero manual intervention. \n\n' +
+      '•	Containerized the application using multi-stage Docker builds (reducing image size from ~500MB to ~150MB), pushed to AWS ECR, and deployed via Helm with rolling updates achieving zero-downtime deployments. \n\n' +
+      '•	Configured SonarQube Quality Gate and OWASP Dependency Check as pipeline blockers — no code reaches production unless it passes both security and quality thresholds. \n\n' +
+      '•	Provisioned AWS EKS cluster using eksctl with 2 worker nodes, HPA autoscaling (2–5 pods based on CPU), and AWS ALB Ingress exposing the application publicly on the internet \n\n' +
+      '•	Set up Prometheus + Grafana monitoring stack on Kubernetes with custom alert rules for pod crash loops, high CPU, and zero-replica scenarios — alerts routed to Slack via Alertmanager. \n\n',
+    link: 'https://github.com/sundar-techops/myapp-End-to-End-CI-CD-Pipeline-using-K8s.git',
+    imageUrl: '',
   },
   {
     id: 2,
