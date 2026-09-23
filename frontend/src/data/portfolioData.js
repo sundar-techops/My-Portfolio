@@ -8,16 +8,16 @@
 
 export const profile = {
   name: 'Sundar S', // TODO: put your full name as you want it on resume/LinkedIn
-  title: 'Motivated & Aspiring DevOps/Cloud Engineer',
+  title: 'DevOps/Cloud Engineer',
   intro:
-    'Motivated and detail-oriented aspiring DevOps Engineer with hands-on project experience in AWS cloud infrastructure, Terraform (IaC), CI/CD pipelines, Docker containerization, and Kubernetes orchestration.' ,
+    'Result Driven DevOps Engineer with hands-on project experience in AWS cloud infrastructure, Terraform (IaC), CI/CD pipelines, Docker containerization, and Kubernetes orchestration.' ,
   
    about:
-    'Aspiring DevOps Engineer transitioning from 2+ years of Technical Support experience into DevOps. My background in IT infrastructure, networking, system troubleshooting, and enterprise support has given me a strong foundation in reliability and operations. \n\n' +
+    'Motivated & Result Driven DevOps Engineer transitioning from 2+ years of Technical Support experience into DevOps. My background in IT infrastructure, networking, system troubleshooting, and enterprise support has given me a strong foundation in reliability and operations. \n\n' +
     'I am now focused on DevOps and have built hands-on experience with AWS, Azure, Linux, Git, Jenkins, Docker, Kubernetes, Terraform, Ansible, Prometheus, and Grafana, with a focus on CI/CD automation, Infrastructure as Code, containerization, cloud infrastructure, and monitoring. \n\n' + 
     'I applied  my skills through hands-on projects, including an end-to-end CI/CD implementation on AWS EKS covering automated build, testing, security scanning, containerization, deployment, monitoring, and alerting. \n\n' ,
   
-  resumeUrl: 'https://drive.google.com/file/d/1JIhVHYAbvlrVFURtUIRrWfqKgB1N6Jxo/view?usp=drive_link',
+  resumeUrl: 'https://drive.google.com/file/d/1jKJd1ygfufzrJtju6NX5GyH3c-3KvQBn/view?usp=drive_linkk',
   githubUrl: 'https://github.com/sundar-techops',
   linkedinUrl: 'https://www.linkedin.com/in/sundar-techops',
   email: 'sundar.techops@gmail.com',
@@ -25,27 +25,48 @@ export const profile = {
 };
 
 export const skills = [
-  { id: 1, name: 'AWS (EC2, S3, EBS, VPC, IAM, RDS, NAT Gateway, Security Groups, EKS)', category: 'Cloud', proficiency: 75 },
+  { id: 1, name: 'AWS (EC2, S3, EBS, VPC, IAM, RDS, NAT Gateway, Security Groups, EKS, AWS ECR)', category: 'Cloud', proficiency: 75 },
   { id: 2, name: 'Terraform', category: 'Cloud', proficiency: 70 },
   { id: 3, name: 'Azure Fundamentals', category: 'Cloud', proficiency: 50 },
 
   { id: 4, name: 'Jenkins', category: 'CI/CD', proficiency: 75 },
   { id: 5, name: 'GitHub Actions', category: 'CI/CD', proficiency: 70 },
   { id: 6, name: 'Docker', category: 'CI/CD', proficiency: 75 },
+  { id: 7, name: 'Maven', category: 'CI/CD', proficiency: 75 },
+  { id: 8, name: 'SonarQube', category: 'CI/CD', proficiency: 80 },
 
-  { id: 7, name: 'Kubernetes', category: 'Containers & Orchestration', proficiency: 70 },
-  { id: 8, name: 'Amazon EKS', category: 'Containers & Orchestration', proficiency: 70 },
+  { id: 9, name: 'Kubernetes', category: 'Containers & Orchestration', proficiency: 70 },
+  { id: 10, name: 'Amazon EKS', category: 'Containers & Orchestration', proficiency: 70 },
 
-  { id: 9, name: 'Bash Scripting', category: 'Scripting', proficiency: 70 },
-  { id: 10, name: 'Python', category: 'Scripting', proficiency: 60 },
+  { id: 11, name: 'Bash Scripting', category: 'Scripting', proficiency: 70 },
+  { id: 12, name: 'Python', category: 'Scripting', proficiency: 60 },
 
-  { id: 11, name: 'Linux Administration', category: 'Systems', proficiency: 80 },
-  { id: 12, name: 'Git & GitHub', category: 'Systems', proficiency: 80 },
+  { id: 13, name: 'Linux Administration', category: 'Systems', proficiency: 80 },
+  { id: 14, name: 'Git & GitHub', category: 'Systems', proficiency: 80 },
+
+  { id: 15, name: 'Claude AI', category: 'AI Integration', proficiency: 85 },
+
+  { id: 16, name: 'Prometheus', category: 'Monitoring & Observability', proficiency: 85 },
+  { id: 17, name: 'Grafana', category: 'Monitoring & Observability', proficiency: 85 },
+  { id: 18, name: 'kube-prometheus-stack', category: 'Monitoring & Observability', proficiency: 85 },
 ];
 
 export const projects = [
   {
     id: 1,
+    title: 'Employee Management API — Production CI/CD Pipeline with AI Integration',
+    description:
+      '•	Architected and built a 7-stage Jenkins declarative pipeline (GitHub webhook → Maven build → SonarQube analysis → Quality Gate → Docker build → EKS deploy → AI release notes) cutting manual deployment time from ~2.5 hours to under 10 minutes \n\n' +
+      '•	Deployed containerised Spring Boot microservice to Amazon EKS using rolling updates with liveness/readiness probes and Horizontal Pod Autoscaler (2–6 replicas); exposed via AWS Elastic Load Balancer on ap-south-1 \n\n' +
+      '•	Enforced automated SonarQube quality gate as a pipeline blocker — broken or low-quality code is rejected before Docker build, preventing defects from reaching production. \n\n' +
+      '•	Containerised application using a multi-stage Dockerfile (Maven+JDK build stage → Alpine JRE runtime) reducing final image size from ~800 MB to ~180 MB \n\n' +
+      '•	Integrated Anthropic Claude API as an AI pipeline assistant — automatically diagnoses Jenkins build failures from console logs (root cause + fix in <60 seconds) and generates categorised release notes on every successful deployment \n\n' +
+      '•	Configured Prometheus + Grafana monitoring stack via Helm in EKS; Spring Boot Actuator exposes live metrics (HTTP rate, JVM heap, response time) scraped every 15 seconds \n\n',
+    link: 'https://github.com/sundar-techops/Employee-Management-CI-CD-Pipeline-Project-using-AI.git',
+    imageUrl: 'https://www.google.com/imgres?q=claude%20ai%20&imgurl=https%3A%2F%2Fcdn.shopaccino.com%2Figmguru%2Fimages%2Fwhat-is-claude-ai-3616144407135393-12569002461457366.webp&imgrefurl=https%3A%2F%2Fwww.igmguru.com%2Fblog%2Fwhat-is-claude-ai&docid=OW4SzB8Bq8eeZM&tbnid=vrZIPKtlmIbEaM&vet=12ahUKEwjy3u3s_oSXAxVYjOEIHexoJbsQnPAOegUI0AEQAA..i&w=1280&h=720&hcb=2&ved=2ahUKEwjy3u3s_oSXAxVYjOEIHexoJbsQnPAOegUI0AEQAA',
+  },  
+  {
+    id: 2,
     title: 'MyShop — End-to-End production style CI/CD Pipeline project on AWS EKS',
     description:
       '•	Designed and implemented a 10-stage CI/CD pipeline using Jenkins that automatically builds, tests, scans, and deploys a Spring Boot e-commerce application to AWS EKS on every GitHub push — zero manual intervention. \n\n' +
@@ -54,10 +75,10 @@ export const projects = [
       '•	Provisioned AWS EKS cluster using eksctl with 2 worker nodes, HPA autoscaling (2–5 pods based on CPU), and AWS ALB Ingress exposing the application publicly on the internet \n\n' +
       '•	Set up Prometheus + Grafana monitoring stack on Kubernetes with custom alert rules for pod crash loops, high CPU, and zero-replica scenarios — alerts routed to Slack via Alertmanager. \n\n',
     link: 'https://github.com/sundar-techops/myapp-End-to-End-CI-CD-Pipeline-using-K8s.git',
-    imageUrl: 'https://www.ibm.com/think/topics/ci-cd',
+    imageUrl: 'https://www.google.com/imgres?q=kubernetes&imgurl=https%3A%2F%2Fzesty.co%2Fwp-content%2Fuploads%2F2024%2F10%2FContainer-K8s.png&imgrefurl=https%3A%2F%2Fzesty.co%2Ffinops-glossary%2Fkubernetes-containers%2F&docid=FqnGe6B9-0iK5M&tbnid=4TXuO3WPVR0unM&vet=12ahUKEwiIpL_--YSXAxUmi-EIHZI5FO4QnPAOegUI5wEQAA..i&w=1000&h=640&hcb=2&ved=2ahUKEwiIpL_--YSXAxUmi-EIHZI5FO4QnPAOegUI5wEQAA',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Multi-Tier AWS Infrastructure (Terraform)',
     description:
       'Production-style multi-tier infrastructure on AWS provisioned entirely with Terraform — EC2, RDS, and a WordPress deployment, covering VPC design, security groups, and modular IaC.',
@@ -65,7 +86,7 @@ export const projects = [
     imageUrl: 'https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/336040372/original/e950936adb4c096a746167368789ef146371f0c0/build-your-whole-aws-infrastructure-in-terraform.png',
   },
   {
-    id: 3,
+    id: 4,
     title: 'AWS S3 Automation',
     description:
       'Automation scripts for S3 bucket management — lifecycle policies, backups, and event-driven workflows, built to reduce manual cloud storage operations.',
@@ -73,7 +94,7 @@ export const projects = [
     imageUrl: 'https://tse3.mm.bing.net/th/id/OIP.JMspq1z3Vm2m00ioNzUtEgHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3',
   },
    {
-    id: 4,
+    id: 5,
     title: 'GitOps Deployment — Argo CD | Kubernetes | GitHub  (GitOps & Auto-Healing)',
     description:
       '•	Deployed Argo CD on a Kubernetes cluster and connected it to a GitHub repository (sundar-techops/devops-argocd-gitops) to implement a fully automated GitOps delivery pipeline — directly matching the Argo CD and auto-healing infrastructure requirements of this role.',
