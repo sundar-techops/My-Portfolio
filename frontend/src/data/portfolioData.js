@@ -63,7 +63,7 @@ export const projects = [
       '•	Integrated Anthropic Claude API as an AI pipeline assistant — automatically diagnoses Jenkins build failures from console logs (root cause + fix in <60 seconds) and generates categorised release notes on every successful deployment \n\n' +
       '•	Configured Prometheus + Grafana monitoring stack via Helm in EKS; Spring Boot Actuator exposes live metrics (HTTP rate, JVM heap, response time) scraped every 15 seconds \n\n',
     link: 'https://github.com/sundar-techops/Employee-Management-CI-CD-Pipeline-Project-using-AI.git',
-    imageUrl: 'https://www.google.com/imgres?q=claude%20ai%20&imgurl=https%3A%2F%2Fcdn.shopaccino.com%2Figmguru%2Fimages%2Fwhat-is-claude-ai-3616144407135393-12569002461457366.webp&imgrefurl=https%3A%2F%2Fwww.igmguru.com%2Fblog%2Fwhat-is-claude-ai&docid=OW4SzB8Bq8eeZM&tbnid=vrZIPKtlmIbEaM&vet=12ahUKEwjy3u3s_oSXAxVYjOEIHexoJbsQnPAOegUI0AEQAA..i&w=1280&h=720&hcb=2&ved=2ahUKEwjy3u3s_oSXAxVYjOEIHexoJbsQnPAOegUI0AEQAA',
+    imageUrl: 'https://cdn.shopaccino.com/igmguru/images/what-is-claude-ai-3616144407135393-12569002461457366.webp'
   },  
   {
     id: 2,
@@ -75,7 +75,7 @@ export const projects = [
       '•	Provisioned AWS EKS cluster using eksctl with 2 worker nodes, HPA autoscaling (2–5 pods based on CPU), and AWS ALB Ingress exposing the application publicly on the internet \n\n' +
       '•	Set up Prometheus + Grafana monitoring stack on Kubernetes with custom alert rules for pod crash loops, high CPU, and zero-replica scenarios — alerts routed to Slack via Alertmanager. \n\n',
     link: 'https://github.com/sundar-techops/myapp-End-to-End-CI-CD-Pipeline-using-K8s.git',
-    imageUrl: 'https://www.google.com/imgres?q=kubernetes&imgurl=https%3A%2F%2Fzesty.co%2Fwp-content%2Fuploads%2F2024%2F10%2FContainer-K8s.png&imgrefurl=https%3A%2F%2Fzesty.co%2Ffinops-glossary%2Fkubernetes-containers%2F&docid=FqnGe6B9-0iK5M&tbnid=4TXuO3WPVR0unM&vet=12ahUKEwiIpL_--YSXAxUmi-EIHZI5FO4QnPAOegUI5wEQAA..i&w=1000&h=640&hcb=2&ved=2ahUKEwiIpL_--YSXAxUmi-EIHZI5FO4QnPAOegUI5wEQAA',
+    imageUrl: 'https://www.jeeviacademy.com/wp-content/uploads/2026/02/Screenshot-2026-02-13-120459.png'
   },
   {
     id: 3,
