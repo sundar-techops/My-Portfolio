@@ -17,7 +17,7 @@ export const profile = {
     'I am now focused on DevOps and have built hands-on experience with AWS, Azure, Linux, Git, Jenkins, Docker, Kubernetes, Terraform, Ansible, Prometheus, and Grafana, with a focus on CI/CD automation, Infrastructure as Code, containerization, cloud infrastructure, and monitoring. \n\n' + 
     'I applied  my skills through hands-on projects, including an end-to-end CI/CD implementation on AWS EKS covering automated build, testing, security scanning, containerization, deployment, monitoring, and alerting. \n\n' ,
   
-  resumeUrl: 'https://drive.google.com/file/d/1jKJd1ygfufzrJtju6NX5GyH3c-3KvQBn/view?usp=drive_linkk',
+  resumeUrl: 'https://drive.google.com/file/d/126pQOdep2eqKweuPeqXgnMuGbETvXNT3/view?usp=drivesdk',
   githubUrl: 'https://github.com/sundar-techops',
   linkedinUrl: 'https://www.linkedin.com/in/sundar-techops',
   email: 'sundar.techops@gmail.com',
