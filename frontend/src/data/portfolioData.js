@@ -10,12 +10,10 @@ export const profile = {
   name: 'Sundar S', // TODO: put your full name as you want it on resume/LinkedIn
   title: 'DevOps/Cloud Engineer',
   intro:
-    'Result Driven DevOps Engineer with hands-on project experience in AWS cloud infrastructure, Terraform (IaC), CI/CD pipelines, Docker containerization, and Kubernetes orchestration.' ,
+    'Result Driven DevOps Engineer with hands-on experience in AWS cloud infrastructure, Terraform (IaC), CI/CD pipelines, Docker, and Kubernetes.' ,
   
    about:
-    'Motivated & Result Driven DevOps Engineer transitioning from 2+ years of Technical Support experience into DevOps. My background in IT infrastructure, networking, system troubleshooting, and enterprise support has given me a strong foundation in reliability and operations. \n\n' +
-    'I am now focused on DevOps and have built hands-on experience with AWS, Azure, Linux, Git, Jenkins, Docker, Kubernetes, Terraform, Ansible, Prometheus, and Grafana, with a focus on CI/CD automation, Infrastructure as Code, containerization, cloud infrastructure, and monitoring. \n\n' + 
-    'I applied  my skills through hands-on projects, including an end-to-end CI/CD implementation on AWS EKS covering automated build, testing, security scanning, containerization, deployment, monitoring, and alerting. \n\n' ,
+    'DevOps Engineer with 4+ years of professional experience, with a strong background in enterprise support, infrastructure operations, problem-solving, and service delivery. Experienced in working with cross-functional teams, handling incidents and user issues within SLA timelines, and maintaining reliable day-to-day operations. Strong understanding of IT processes, documentation, troubleshooting, and continuous improvement. Hands-on experience in cloud and DevOps projects, with a focus on automation, reliability, and efficient delivery. A proactive and adaptable professional with a strong willingness to learn new technologies and contribute effectively to team and organizational goals. ,
   
   resumeUrl: 'https://drive.google.com/file/d/126pQOdep2eqKweuPeqXgnMuGbETvXNT3/view?usp=drivesdk',
   githubUrl: 'https://github.com/sundar-techops',
