@@ -106,20 +106,40 @@ export const projects = [
 export const experiences = [
   {
     id: 1,
-    role: 'Technical Support Engineer',
+    role: 'Technical Support Engineer', // TODO
     company: 'Vatanix Technologies',
     startDate: 'Apr 2024',
-    endDate: 'Jul 2026',
+    endDate: 'Jun 2026',
     description:
-      'Providing technical support and troubleshooting for production systems, working closely with customer environments and escalations — experience that now drives my transition into DevOps and infrastructure automation.',
+      '•	Joined as a Technical Support Engineer and worked closely with the DevOps team, supporting CI/CD, containerization and AWS deployment activities for the enterprise application. \n\n' +
+      '•	Supported the DevOps team in building and maintaining a 7-stage Jenkins Declarative CI/CD pipeline covering GitHub checkout, Maven build, JUnit testing, SonarQube analysis, Quality Gate validation, Docker image creation and deployment to Amazon EKS.\n\n' +
+      '•	Worked on GitHub Webhook integration with Jenkins so that pipelines trigger automatically whenever developers push code changes to the repository. \n\n' +
+      '•	Worked with SonarQube and JaCoCo in Jenkins, using Quality Gates as deployment controls to stop code that did not meet the defined quality requirements.\n\n' +
+      '•	Worked on Docker multi-stage builds that reduced image size from approximately 800 MB to 180 MB, and automated image tagging and pushing of versioned images to Amazon ECR.\n\n' +
+      '•	Worked with Kubernetes/EKS deployments, rolling updates, readiness and liveness probes, HPA and application exposure through AWS load balancing.\n\n' +
+      '•	Supported Kubernetes application configuration using ConfigMaps, Secrets and Namespaces, and used kubectl to check pod status, logs and events during issues.\n\n' +
+      '•	Supported Prometheus and Grafana monitoring for application, JVM, pod and infrastructure metrics, and raised alerts and issues to the DevOps team.\n\n' +
+      '•	Handled day-to-day support on Linux servers and AWS resources (EC2, Security Groups, load balancers), checking logs, service status and connectivity problems.\n\n' +
+      '•	Troubleshot CI/CD, Docker and Kubernetes deployment issues by analyzing build and application logs and applying corrective actions, and documented the fixes so the team could reuse them.\n\n',
   },
   {
     id: 2,
-    role: 'U/W Executive', // TODO
+    role: 'Executive - Technical & Underwriting', // TODO
     company: 'Star Health & Allied Insurance Co. Ltd.',
     startDate: 'Oct 2021', // TODO
-    endDate: 'Apr 2024', // TODO
+    endDate: 'Mar 2024', // TODO
     description:
-      '•	Coordinated with internal teams to resolve policy processing issues within SLA timelines. Maintained accurate records while handling high-volume operational tasks. Ensured compliance with organizational processes and documentation standards.',
+      '•	Provided technical and end-user support for enterprise users and assisted in resolving hardware, software and connectivity-related issues.\n\n' +
+      '•	Troubleshot desktop, laptop, operating-system and application-related issues and restored user functionality within defined SLA timelines.\n\n' +
+      '•	Supported Microsoft Outlook configuration, email access, profile setup and common mail-related issues.\n\n' +
+      '•	Assisted users with network connectivity problems involving LAN, Wi-Fi and enterprise network access.\n\n' +
+      '•	Supported configuration and troubleshooting of network devices and connectivity in the enterprise environment.\n\n' +
+      '•	Monitored network and infrastructure availability and escalated recurring or complex issues to the appropriate technical teams.\n\n' +
+      '•	Performed user-access and endpoint troubleshooting while following organizational security and access-control procedures.\n\n' +
+      '•	Maintained incident records, troubleshooting details and resolution information for operational tracking.\n\n' +
+      '•	Worked with internal teams to investigate incidents and ensure timely resolution according to defined service requirements.\n\n' +
+      '•	Followed IT support processes, SLA requirements and escalation procedures for priority incidents.\n\n' +
+      '•	Maintained effective communication with users and internal teams throughout the incident lifecycle and provided status updates until resolution.\n\n',
+
   },
 ];
