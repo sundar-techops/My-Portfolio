@@ -15,7 +15,7 @@ export const profile = {
    about:
     'DevOps Engineer with 4+ years of professional experience, with a strong background in enterprise support, infrastructure operations, problem-solving, and service delivery. Experienced in working with cross-functional teams, handling incidents and user issues within SLA timelines, and maintaining reliable day-to-day operations. Strong understanding of IT processes, documentation, troubleshooting, and continuous improvement. Hands-on experience in cloud and DevOps projects, with a focus on automation, reliability, and efficient delivery. A proactive and adaptable professional with a strong willingness to learn new technologies and contribute effectively to team and organizational goals.' ,
   
-  resumeUrl: 'https://drive.google.com/file/d/10qh0F3YmqWSa-hbluNvNLXsBql4vVFKe/view?usp=drive_link',
+  resumeUrl: 'https://drive.google.com/file/d/1pGAlMq82TkAPgmp32qaNi46GII6v8OpD/view?usp=drive_link',
   githubUrl: 'https://github.com/sundar-techops',
   linkedinUrl: 'https://www.linkedin.com/in/sundar-techops',
   email: 'sundar.techops@gmail.com',
@@ -104,12 +104,11 @@ export const projects = [
 export const experiences = [
   {
     id: 1,
-    role: 'Technical Support Engineer', // TODO
+    role: 'Devops Engineer', // TODO
     company: 'Vatanix Technologies',
     startDate: 'Apr 2024',
     endDate: 'Jun 2026',
     description:
-      '•	Joined as a Technical Support Engineer and worked closely with the DevOps team, supporting CI/CD, containerization and AWS deployment activities for the enterprise application. \n\n' +
       '•	Supported the DevOps team in building and maintaining a 7-stage Jenkins Declarative CI/CD pipeline covering GitHub checkout, Maven build, JUnit testing, SonarQube analysis, Quality Gate validation, Docker image creation and deployment to Amazon EKS.\n\n' +
       '•	Worked on GitHub Webhook integration with Jenkins so that pipelines trigger automatically whenever developers push code changes to the repository. \n\n' +
       '•	Worked with SonarQube and JaCoCo in Jenkins, using Quality Gates as deployment controls to stop code that did not meet the defined quality requirements.\n\n' +
