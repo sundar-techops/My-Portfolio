@@ -15,7 +15,7 @@ export const profile = {
    about:
     'DevOps Engineer with 4+ years of professional experience, with a strong background in enterprise support, infrastructure operations, problem-solving, and service delivery. Experienced in working with cross-functional teams, handling incidents and user issues within SLA timelines, and maintaining reliable day-to-day operations. Strong understanding of IT processes, documentation, troubleshooting, and continuous improvement. Hands-on experience in cloud and DevOps projects, with a focus on automation, reliability, and efficient delivery. A proactive and adaptable professional with a strong willingness to learn new technologies and contribute effectively to team and organizational goals.' ,
   
-  resumeUrl: 'https://drive.google.com/file/d/1pGAlMq82TkAPgmp32qaNi46GII6v8OpD/view?usp=drive_link',
+  resumeUrl: '',
   githubUrl: 'https://github.com/sundar-techops',
   linkedinUrl: 'https://www.linkedin.com/in/sundar-techops',
   email: 'sundar.techops@gmail.com',
